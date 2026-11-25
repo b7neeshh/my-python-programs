@@ -1,0 +1,10 @@
+name=input("What is your name? Enter your name here: ")
+print("Hello Mr/Mrs",name)
+print("Now lets find the perimeter and area of a rectangle.")
+length=int(input("Enter the length of your Rectangle: "))
+breadth=int(input("Enter the breadth of your Rectangle: "))
+perimeter= 2 * (length+breadth)
+area= length*breadth
+print("The perimeter for your Rectangle is: ",perimeter)
+print("The area of your rectangle is:",area)
+print("Thanks for using my code :)  ") 
