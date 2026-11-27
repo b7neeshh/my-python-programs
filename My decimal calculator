@@ -1,0 +1,23 @@
+name=input("Enter your name here: ")
+print("Good morning",name)
+print("Lets solve a maths problem in our calculator")
+first=float(input("Enter your first number here: "))
+second=float(input("Enter your second number here: "))
+addition=first+second
+subtraction=first-second
+multiplication=first*second
+calculate=input("Enter what you want with these:Addition,Subtraction,Multiplication,Division: ").strip().lower()
+if calculate=="addition" :
+   print(addition)
+elif calculate=="subtraction" :
+   print(subtraction)
+elif calculate=="multiplication" :
+   print(multiplication)
+elif calculate=="division" :
+   if second==0 :
+     print("Division with zero is not possible")
+   else :
+      print(first/second)
+else:
+   print("Invalid stuff")
+   
